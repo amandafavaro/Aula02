@@ -1,0 +1,51 @@
+input[type=checkbox]:checked + label.riscado {
+    text-decoration: line-through;
+}
+
+.align_header {
+    text-align: center;
+}
+
+.header {
+    border: 1px solid;
+    border-radius: 5px black;
+}
+
+.table_header {
+    background-color: gray;
+    color: white;
+    border-color: black;
+}
+
+.table_feitas {
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, serif;
+    font-size: large;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.table_nao_feitas {
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, serif;
+    font-size: large;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.table_row {
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.table_row_alternative {
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+}
+
